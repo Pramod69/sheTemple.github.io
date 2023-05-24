@@ -4517,6 +4517,7 @@ a:focus {
   color: #c96; }
 
 .product-price {
+  display: none !important;
   color: #c96; }
 
 .product-label.label-primary {
@@ -8161,6 +8162,7 @@ a:focus {
 .product.product-2 .product-action-vertical {
   top: 3rem; }
 .product.product-2 .product-nav-dots {
+  display: none;
   margin-bottom: 2rem; }
 
 .product-footer {

@@ -298,6 +298,11 @@ blockquote {
   padding-left: 10px;
   padding-right: 10px; }
 
+  #about .container,
+  #contact .container {
+    padding-top: 10rem;
+  }
+
 .page-wrapper {
   position: relative;
   display: flex;
@@ -10558,6 +10563,7 @@ button:focus {
   .newsletter-popup-container .banner-content-wrap {
     display: flex;
     justify-content: center;
+    background-color: #000;
     align-items: center; }
   .newsletter-popup-container .banner-content {
     position: static;
@@ -10581,7 +10587,8 @@ button:focus {
     .newsletter-popup-container .banner-title light {
       font-weight: 400; }
   .newsletter-popup-container p {
-    font-weight: 400;
+    color: #fddb53;
+    font-weight: 600;
     letter-spacing: .01em;
     margin-bottom: 3.3rem;
     line-height: 1.75em; }
@@ -10635,7 +10642,7 @@ button:focus {
     top: 1rem;
     right: calc(100% / 12 + 2rem);
     font-size: 2rem;
-    background-color: #000;
+    background-color: #fff;
     border-radius: 50%;
     width: 3rem;
     height: 3rem; }

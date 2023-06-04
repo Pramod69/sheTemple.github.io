@@ -23,7 +23,8 @@ a:focus {
   box-shadow: 0 1px 0 0 #cc6666; }
 
 .text-primary {
-  color: #cc6666 !important; }
+  font-weight: 600;
+  color: #fff !important; }
 
 .text-secondary {
   color: #c15454 !important; }
